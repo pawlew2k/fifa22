@@ -3,11 +3,8 @@
 Downloading anaconda:
 `https://www.anaconda.com/download`
 
-Creating environment:
-`conda create --name <env> --file requirements.txt`
-
 Updating requirements:
-`conda list --export > requirements.txt`
+`pip list --format=freeze > requirements.txt`
 
 Pytania na konsulatacje:
   1. Czy nalezy sporządzić wpierw wpływ cech ogólny dla wszystkich zawodników a potem oddzielne zalezne od pozycji i jeszcze jeden dla top 10% zawodników?
