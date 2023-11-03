@@ -1,0 +1,42 @@
+Defensive:
+
+GK Goalkeeper 
+SW Sweeper 
+RWB Right Wing Back 
+RB Right back
+RCB Right center back 
+CB Center back
+LCB Left center back 
+LB Left back 
+LWB Left Wing Back 
+
+Midfielders:
+
+RDM Right defensive midfield
+RCDM Right center defensive midfield
+CDM Center defensive midfield
+LCDM Left center defensive midfield
+LDM Left defensive midfield
+RWM Right Wing Midfield
+RM Right midfield
+RCM Right center midfield 
+CM Center Midfield 
+LCM Left center midfield 
+LM Left midfield 
+LWM Left Wing Midfield
+RAM Right attacking midfield
+RCAM Right center attacking midfield
+CAM Center attacking midfield
+LCAM Left center attacking midfield
+LAM Left attacking midfield
+
+Forwards:
+
+RF Right forward
+CF Center forward
+LF Left forward
+RS Right Striker
+ST Striker
+LS Left Striker
+LW Left Wing
+RW Right Wing
