@@ -27,7 +27,7 @@ Karol:
 
 Paweł:
   - [x] tabela (usunięcie/modyfikacja NAN)
-  - [ ] klasyfikacja
+  - [x] klasyfikacja
   
 
 Piotr:
