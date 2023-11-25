@@ -9,10 +9,10 @@ Updating requirements:
 Pytania na konsulatacje:
   1. [x] Czy nalezy sporządzić wpierw wpływ cech ogólny dla wszystkich zawodników a potem oddzielne zalezne od pozycji i jeszcze jeden dla top 10% zawodników? jak chcemy
   2. [ ] Czy trzy rózne modele oznaczają 3 różne modele odrzucania współczynników czy 3 różne współczynniki(PCA,FA itd)? zależne tylko od PCA - regresja LASSO, klasyfikacja, las losowy
-  3. [ ] Czy dodać preferowaną stopę jako wartość binarną(prawa-0, lewa-1)? wywalić kolumnę
+  3. [X] Czy dodać preferowaną stopę jako wartość binarną(prawa-0, lewa-1)? wywalić kolumnę
   4. [x] Co zrobić z wartoścniam NAN w tabelach? usunąć kolumny z wieloma wartościami NAN
   5. [ ] Czy zawodnik powinien miec kilka mozliwych pozycji(np: pomocnik i napastnik) - realizacja remisów w pozycjach
-  6. [ ] usunąć kolumny, które znacząco wpływają na ocenę klasyfikatora: score, wage_eur, release_clause_eur, international_reputation
+  6. [X] usunąć kolumny, które znacząco wpływają na ocenę klasyfikatora: score, wage_eur, release_clause_eur, international_reputation
 
 
 Podział pracy:
@@ -20,18 +20,19 @@ Podział pracy:
 Karol:
   - [x] standaryzacja, normalizacja
   - [x] PCA (wizaulizacja pca)
-  - [ ] wywalić kolumnę prawa-lewa
-  - [ ] usunąć kolumny, które znacząco wpływają na ocenę klasyfikatora: score, wage_eur, release_clause_eur, international_reputation
-  - [ ] sprawdzenie wersji mastera, scalanie, usunięcie ewentualnych konfliktów
-  
+  - [X] wywalić kolumnę prawa-lewa
+  - [X] usunąć kolumny, które znacząco wpływają na ocenę klasyfikatora: score, wage_eur, release_clause_eur, international_reputation
+  - [X] sprawdzenie wersji mastera, scalanie, usunięcie ewentualnych konfliktów
+  - [ ] histogram, value_eur 
 
 Paweł:
   - [x] tabela (usunięcie/modyfikacja NAN)
-  - [x] klasyfikacja
+  - [x] klasyfikacja (ze względu na pozycje)
+  - [ ] klasyfikacja (top 10% , widełki value_eur)
   
 
 Piotr:
   - [x] podział na pozycje(jedna kolumna)
   - [x] FA
-  - [ ] regresja LASSO
-  - [ ] realizacja remisów w pozycjach
+  - [ ] regresja (liniowa oraz elastic)
+  - [ ] realizacja remisów w pozycjach / dodanie kategori mid-back, mid-forward
