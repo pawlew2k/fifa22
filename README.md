@@ -23,12 +23,12 @@ Karol:
   - [X] wywalić kolumnę prawa-lewa
   - [X] usunąć kolumny, które znacząco wpływają na ocenę klasyfikatora: score, wage_eur, release_clause_eur, international_reputation
   - [X] sprawdzenie wersji mastera, scalanie, usunięcie ewentualnych konfliktów
-  - [ ] histogram, value_eur 
+  - [ ] histogram  value_eur 
 
 Paweł:
   - [x] tabela (usunięcie/modyfikacja NAN)
   - [x] klasyfikacja (ze względu na pozycje)
-  - [ ] klasyfikacja (top 10% , widełki value_eur)
+  - [x] klasyfikacja (top 10% , widełki value_eur)
   
 
 Piotr:
