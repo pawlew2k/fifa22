@@ -36,3 +36,8 @@ Piotr:
   - [x] FA
   - [ ] regresja (liniowa oraz elastic)
   - [ ] realizacja remisów w pozycjach / dodanie kategori mid-back, mid-forward
+
+- dodawanie lasów losowych (dla klasyfikacji, regresji)
+- rigid regression (porównanie z innymi)
+- uporządkowanie dataframów
+- sprawdzenie klasyfikacji oraz regresji dla nienaruszonych danych
