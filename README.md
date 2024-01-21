@@ -13,6 +13,13 @@ Pytania na konsulatacje:
   4. [x] Co zrobić z wartoścniam NAN w tabelach? usunąć kolumny z wieloma wartościami NAN
   5. [ ] Czy zawodnik powinien miec kilka mozliwych pozycji(np: pomocnik i napastnik) - realizacja remisów w pozycjach
   6. [X] usunąć kolumny, które znacząco wpływają na ocenę klasyfikatora: score, wage_eur, release_clause_eur, international_reputation
+  7. co wpływa, że 1/3 nie kwalifikuje się jako top10?
+  8. zbiorowy f1 score dla top10 (lasy losowe)
+  9. we wnioskach uwzględnić wyniki (regresja lasy losowe)
+  10. co dokładnie oznaczają y dla regresji liniowej?
+  11. dobrze skomentować wyniki w raporcie
+  11. shap values (lasy losowe regresja), wylicza kontrybucję, wyjaśnialność, zobaczyć co jest na wykresach
+  12. porównać wszystkie modele pomiędzy sobą
 
 
 Podział pracy:
@@ -41,3 +48,4 @@ Piotr:
 - rigid regression (porównanie z innymi)
 - uporządkowanie dataframów
 - sprawdzenie klasyfikacji oraz regresji dla nienaruszonych danych
+
